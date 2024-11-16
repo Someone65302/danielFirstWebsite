@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     right: 0;
+    text-align: center;
 }
 
 .navbar li{
@@ -16,7 +17,6 @@
     font-size: 38;
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
 }
 
 .navbar a:hover{
@@ -24,9 +24,35 @@
     color: black;
 }
 
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
 .Welcome{
     background-color: black;
     color: white;
-    padding: 100px 100px;
+    padding: 10% 5%;
+    font-style: oblique;
     text-align: center;
+    font-size: 2vw;
+}
+
+.contentA{
+    background-color: black;
+    padding: 10% 5%;
+    text-align: center;
+    display: flex;
+}
+
+.contentA img{
+    width: 80%;
+    float: left;
+    
+}
+
+.contentA p{
+    padding-left: 10%;
+    font-size: 3vw;
 }
